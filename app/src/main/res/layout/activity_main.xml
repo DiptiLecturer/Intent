@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBD6D6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="8dp"
+        android:text="Create Account"
+        android:textAlignment="textStart"
+        android:textColor="#00A4BD"
+        android:textSize="44.sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:paddingHorizontal="8dp"
+        android:text="Please enter your details"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="18.sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="8dp"
+        android:text="enter email"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="18.sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:hint="enter email"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="8dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="18.sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/passwordTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="8dp"
+        android:text="enter password"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="18.sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:hint="enter Password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="8dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="18.sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/conPassTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="8dp"
+        android:text="confirm password"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="18.sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/conPassET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:hint="Enter Confirm Passwor"
+        android:inputType="numberPassword"
+        android:paddingHorizontal="8dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="18.sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAlignment="center"
+        android:backgroundTint="#0A0288D1"
+        android:textColor="#00A4BD"
+        android:textSize="18.sp"
+        android:layout_marginHorizontal="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
