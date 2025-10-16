@@ -7,6 +7,9 @@ android {
     namespace = "org.freedu.firstuserreg"
     compileSdk = 36
 
+    buildFeatures{
+        viewBinding =true
+    }
     defaultConfig {
         applicationId = "org.freedu.firstuserreg"
         minSdk = 24

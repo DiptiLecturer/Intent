@@ -4,8 +4,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DBD6D6"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TextView
@@ -118,11 +118,11 @@
         android:id="@+id/registerBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#0A0288D1"
         android:text="Register"
         android:textAlignment="center"
-        android:backgroundTint="#0A0288D1"
         android:textColor="#00A4BD"
         android:textSize="18.sp"
-        android:layout_marginHorizontal="20dp"
         android:textStyle="bold" />
 </LinearLayout>
